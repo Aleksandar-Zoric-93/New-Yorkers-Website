@@ -1,6 +1,3 @@
-
-/* Credit:https://www.facebook.com/Mido.HHH */
-
 /*||||||||||||||||||||||||||||||||| GENERAL ||||||||||||||||||||||||||||||*/
 
 @font-face{font-family:OSWALD-BOLD; src:url(../fonts/OSWALD-BOLD.TTF);}
@@ -46,8 +43,7 @@ animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}
 .headerwrapper nav ul li:hover a{color:white;}
 
 
-/*.headerwrapper nav li a :hover{background:#ff5a0b; border-radius:5px; color:white; transition:all 0.5s ;
- animation:rubberBand 0.9s; -webkit-animation:rubberBand 0.9s;}*/
+
 .active{background:#e50a0a; border-radius:5px; color:white; }
 
 
@@ -126,13 +122,14 @@ float:left; margin-left:45px;}
 
 /*||||||||||||||||||||||||||||||||| BEST DISHES ||||||||||||||||||||||||||||||*/
 
-.bestdisheswrapper{height:800px; background:url(../images/www3.jpg) no-repeat center center fixed; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);
+.bestdisheswrapper{height:1800px; background:url(../images/www3.jpg) no-repeat center center fixed; background-size:cover; border-top:3px solid rgba(255,153,0,0.2);
  border-bottom:3px solid rgba(255,153,0,0.4);  text-align:center;}
  .bestdishes{}
  .bestdisheswrapper #bestdishes h2 {color:white; font-size:35px;  letter-spacing:3px; font-family:Economica-bold;; margin-top:30px;}
  .bestdisheswrapper #bestdishes h2::before{content:url(../images/rectangle.png); position:relative; margin-right:15px;
   top:-10px;}
 .bestdisheswrapper #bestdishes p {color:#fff; font-family:arial; width:530px; line-height:2em; font-weight:bold; font-size:18px; text-align: center;}
+ 
 
  .bestdisheswrapper #bestdishes h2::after{content:url(../images/rectangle.png); position:relative;  margin-left:15px; 
  top:-10px;}
@@ -148,19 +145,20 @@ float:left; margin-left:45px;}
 .item3 img{border:5px solid white;}
 #bestdishes ul {list-style:none;}
 
+ 
 /********************** slider ********************/
 
 
 
-.bestdisheswrapper .slider {
+.bestdisheswrappermenu .slidermenu {
 	position: relative;
 	width: 1100px;;
-	height: 720px;
+	height: 920px;
 	overflow: hidden;
     text-align: center;
 }
 
-.bestdisheswrapper .slides {
+.bestdisheswrapper .slidesmenu {
 	height: 100%;
 
 	/* Clear fix */

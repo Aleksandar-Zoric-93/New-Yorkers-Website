@@ -9,11 +9,18 @@
 	<script src="js/jquery.glide.js"></script>
     
     <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/menu.css">
     <script type="text/javascript" src="js/MyJQ.js"></script>
     <script src="js/jquery.localScroll.min.js" type="text/javascript"></script>
 	<script src="js/jquery.scrollTo.min.js" type="text/javascript"></script> 
     <script src="js/wow.min.js" type="text/javascript"></script> 
+    
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/resetmenu.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/stylemenu.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
 <!-- scroll function -->
 <script type="text/javascript">
@@ -27,6 +34,9 @@ $(document).ready(function() {
 <script>
 new WOW().init();
 </script>
+    
+ 
+    
 
 
 </head>
@@ -40,9 +50,9 @@ new WOW().init();
         <nav>
             <ul id="navigations">
                 <li><a href="#navigations">HOME</a></li>
-                <li> <a href="#slider">ABOUT</a></li>
+                <li> <a href="#slider">MENU</a></li>
                 <li><a href="#map">LOCATONS</a></li>
-                <li><a href="#bestdishes">MENU</a></li>
+                <li><a href="#bookonline">GALLERY</a></li>
                 <li><a href="#contactus">CONTACT</a></li>
             </ul>
         </nav>
@@ -95,21 +105,26 @@ new WOW().init();
 
 
 
-<!--============ Best Dishes ============-->
+<!--============ Menu ============-->
+<main class="cd-main-content">
+    <div class="bookonlinewrapper">
+    <div class="container" id="bookonline">
+		  <h3 class="wow fadeInUp" data-wow-delay="0.3s"> MENU </h3>
+        <h4 id="menuText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto, nostrum eaque necessitatibus sint eos omnis! Beatae, itaque, in. Vel reiciendis consequatur saepe soluta itaque .</h4> <br><br>
+		<a href="#0" class="cd-btn">View Menu</a>
+		<!-- your content here -->
+	</main>
 
+	<div class="cd-panel from-right">
+		<header class="cd-panel-header">
+			<h1>Our Menu</h1>
+			<a href="#0" class="cd-panel-close">Close</a>
+		</header>
 
-
-<div class="bestdisheswrapper">
-    <div id="bestdishes" class="container">
-       
-		 <h2 class="wow fadeInUp" data-wow-delay="0.3s">MENU</h2>
-      <div class="slider">
-      		    <ul class="slides">
-          	 	 <li class="slide">
-                    <div class="item">
-                        <h3>Pizza Deals</h3>
-                          <p class="wow fadeInUp" data-wow-delay="0.8s">  <br>
-Pizza Deal 1 <br>
+		<div class="cd-panel-container">
+			<div class="cd-panel-content">
+				<p> Pizza Deals <br>
+Pizza Deal 1
 9" Pizza with 3 toppings, garlic bread OR wedges & a can of soft drink
 €10.00<br>
 Pizza Deal 2
@@ -126,35 +141,660 @@ Pizza Deal 5
 €20.00<br>
 Pizza Deal 6
 2 x 16" Pizzas with 3 toppings & 2 dipping sauce
-€25.00</p>
+€25.00<br><br><br>
+                    
+                    
 
+                    
+Meal Deals<br>
+All served with fries & a can of soft drink
+Snack Box Meal
+€7.50<br>
+Snack Box Meal
+Quarter Pounder Meal
+€7.50<br>
+ Quarter Pounder Meal 
+Chicken Burger Meal
+€7.50<br>
+ Chicken Burger Meal 
+Taco Cheese Dog Meal
+€7.50<br>
+ Taco Cheese Dog Meal 
+Chicken Wrap Meal
+€7.50<br>
+ Chicken Wrap Meal 
+Chicken Tender Meal
+€7.50<br>
+ Chicken Tender Meal
+€7.50<br><br><br>
 
-                        
-                      </div> <!-- end of item-->
-                     
-                            
-                  </li>
-                   <li class="slide">
-                    <div class="item">
-                          <img src="images/thumb1.png" width="226" height="225" alt="sliderimg" > 
-                          <h3>Pasta Capellini</h3>
-                      </div> <!-- end of item-->
-                      
-                   <div class="item2">
-                          <img src="images/thumb2.jpg" width="226" height="225" alt="sliderimg"> 
-                          <h3>Pasta Pillus</h3>
-                      </div> <!-- end of item-->
-                      
-                   <div class="item3">
-                          <img src="images/thumb3.png" width="226" height="225" alt="sliderimg"> 
-                          <h3>Pasta Fusilli</h3>
-                      </div> <!-- end of item-->
-                  </li>
-                   
-        </ul>
-      </div> <!-- end of slider-->
-    </div> <!-- end of besth dishes-->
-</div> <!-- end of bestdishes wrapper-->
+Pizzas<br>
+New York Pizza
+Gluten free available. We make our own fresh dough & fresh sauces for all pizzas. Extra toppings are available <br>
+Pizza Giovanni
+Ham, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€6.50<br>
+ Pizza Giovanni - 09" 
+12"
+€11.00<br>
+ Pizza Giovanni - 12" 
+16"
+€13.90<br>
+ Pizza Giovanni - 16"
+Pizza Italia
+Salami, pepperoni, red & green peppers, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+Celery
+Mustard
+09"
+€7.90<br>
+ Pizza Italia - 09"
+12"
+€12.50<br>
+ Pizza Italia - 12"
+€16.50<br>
+ Pizza Italia - 16" 
+The Chef Special
+Tuna, olives, red onion, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Fish
+Milk
+09"
+€7.90<br>
+ The Chef Special - 09" 
+12"
+€12.50<br>
+ The Chef Special - 12" 
+16"
+€16.50<br>
+ The Chef Special - 16"
+The Bronx
+Mushroom, onion, garlic, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€7.50<br>
+ The Bronx - 09" 
+12"
+€11.50<br>
+ The Bronx - 12" 
+€15.50<br>
+Add The Bronx - 16" 
+ Isabella
+Pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€5.90<br>
+ The Isabella - 09" 
+12"
+€10.00<br>
+ The Isabella - 12" 
+16"
+€13.00<br>
+ The Isabella - 16" 
+Paddy's Choice
+Pizza ham, pepperoni, egg, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+Celery
+Mustard
+09"
+€7.90<br>
+ Paddy's Choice - 09"
+12"
+€12.50<br>
+ Paddy's Choice - 12" 
+16"
+€16.50<br>
+ Paddy's Choice - 16" 
+Pizza Roma
+Ham, mushroom, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€7.60<br>
+ Pizza Roma - 09" 
+12"
+€11.90<br>
+ Pizza Roma - 12" 
+16"
+€15.90<br>
+ Pizza Roma - 16" 
+Pizza Royal
+Ham, red, green peppers, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€7.60<br>
+ Pizza Royal - 09" 
+12"
+€11.90<br>
+ Pizza Royal - 12" 
+16"
+€15.90<br>
+ Pizza Royal - 16" 
+The Hawaiian
+Ham, pineapple, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€7.60<br>
+ The Hawaiian - 09" 
+12"
+€11.90<br>
+ The Hawaiian - 12" 
+16"
+€15.90<br>
+ The Hawaiian - 16"
+Pizza Rosario
+Diced breast of chicken, mushroom, mixed herbs, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€7.80<br>
+ Pizza Rosario - 09"
+12"
+€12.50<br>
+ Pizza Rosario - 12" 
+16"
+€16.50<br>
+ Pizza Rosario - 16"
+The Vegetarian
+Mushroom, onion, pineapple, red & green peppers, sweetcorn,pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€8.50<br>
+ The Vegetarian - 09" 
+12"
+€14.50<br>
+ The Vegetarian - 12" 
+16"
+€18.50<br>
+ The Vegetarian - 16" 
+The Liberty Special
+Salami, pepperoni, ham, mushroom, onion, pineapple, red & green peppers, sweetcorn, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+Celery
+Mustard
+09"
+€8.90<br>
+ The Liberty Special - 09" 
+12"
+€15.50<br>
+The Liberty Special - 12" 
+16"
+€21.90<br>
+ The Liberty Special - 16" 
+The Hot & Spicy
+Spicy beef, pepperoni, jalapeno peppers, red & green peppers, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+Celery
+Mustard
+09"
+€8.70<br>
+ The Hot & Spicy - 09" 
+12"
+€14.90<br>
+ The Hot & Spicy - 12" 
+16"
+€18.50<br>
+ The Hot & Spicy - 16"
+The Quattro Stagioni
+Ham, mushroom, pepperoni, red onions, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€8.00<br>
+ The Quattro Stagioni - 09" 
+12"
+€12.50<br>
+ The Quattro Stagioni - 12" 
+16"
+€16.90<br>
+ The Quattro Stagioni - 16" 
+The Calzone (Folded Pizza)
+Ham, mushroom, red & green peppers, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€8.00<br>
+ The Calzone (Folded Pizza) - 09" 
+12"
+€11.50<br>
+ The Calzone (Folded Pizza) - 12" 
+The Mexicana
+Ham, pepperoni, red onion, jalapeno peppers, pizza sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+Celery
+Mustard
+09"
+€8.50<br>
+ The Mexicana - 09" 
+12"
+€12.80<br>
+ The Mexicana - 12" 
+16"
+€17.50<br>
+ The Mexicana - 16" 
+The Geraldo (BBQ)
+Diced breast of chicken, red onion, strips of crispy smoked bacon hickory, smoked BBQ sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€8.90<br>
+ The Geraldo (BBQ) - 09" 
+€12.90<br>
+ The Geraldo (BBQ) - 12" 
+16"
+€17.90<br>
+ The Geraldo (BBQ) - 16" 
+The Taco Bomb (Folded Pizza)
+Taco beef, red onion, garlic sauce & red cheddar cheese
+Gluten
+Eggs
+Milk
+09"
+€8.50<br>
+ The Taco Bomb (Folded Pizza) - 09" 
+12"
+€11.90<br>
+ The Taco Bomb (Folded Pizza) - 12" 
+The Porky (BBQ)
+Double pepperoni, spicy sausage, crispy bacon, hickory BBQ sauce & mozzarella cheese
+Gluten
+Eggs
+Milk
+09"
+€8.80<br>
+ The Porky (BBQ) - 09"
+12"
+€14.90<br>
+ The Porky (BBQ) - 12" 
+16"
+€18.90<br>
+ The Porky (BBQ) - 16" 
+Garlic Bread
+Plain Garlic Bread
+Gluten
+Milk
+€3.50<br>
+ Plain Garlic Bread 
+Garlic Bread with Cheese
+Gluten
+Milk
+€4.00<br><br>
+
+Homemade Burgers<br>
+100% Irish Beef
+Gluten free available. Burgers are dressed with lettuce, onion & pink sauce. Add 40c for cheese OR coleslaw, 80c for pineapple & 90c for bacon OR egg
+Frozen quarter pounder available on request<br><br>
+Humburger
+Gluten
+Eggs
+Soya
+€2.70<br>
+
+Quarter Pounder Burger
+Gluten
+Eggs
+Soya
+€3.90<br>
+
+Veggie Burger
+Gluten
+Soya
+€3.80<br><br><br>
+
+                    
+                    
+Signature Burgers<br>
+Burgers are dressed with lettuce, onion & pink sauce. Add 40c for cheese OR coleslaw, 80c for pineapple & 90c for bacon OR egg
+Frozen quarter pounder available on request<br><br>
+The New Yorker Classic Burger
+Quarter pounder of prime Irish beef & double cheese melt
+Gluten
+Eggs
+Soya
+Milk
+€4.30<br>
+
+The Manhattan Burger
+Half pounder Irish beef, melted double cheese & fried potato waffle
+Gluten
+Eggs
+Soya
+Milk
+€6.30<br>
+
+The Broadway Burger
+Quarter pounder of prime Irish beef, double bacon crispy fried, 2 slices of melted cheese & crowned with a grilled egg sunny side up
+Gluten
+Eggs
+Soya
+Milk
+€6.20<br>
+
+The Empire State Burger
+Quarter pounder of prime Irish beef, crispy fried bacon, sliced of melted cheese, an over easy grilled egg, fried mushroom with deep fried onion rings
+Gluten
+Eggs
+Soya
+Milk
+€6.90<br>
+
+The Big Apple Burger
+Quarter pounder of prime Irish beef, crispy fried bacon, slices of melted cheese & grilled pineapple
+Gluten
+Eggs
+Soya
+Milk
+€5.50<br>
+
+Hells Kitchen Burger
+Quarter pounder of prime Irish beef, splashed with hot sauce, topped with American cheese, smoked bacon, smothered with jalapeno peppers
+Gluten
+Eggs
+Soya
+Milk
+Mustard
+€5.60<br>
+
+Chicken
+Gluten free available
+Cajun Chicken Fillet
+Gluten
+Eggs
+Soya
+€4.50<br>
+
+Chicken Breast in a Bun
+Gluten
+Eggs
+Soya
+€4.50<br>
+
+Chicken Burger
+Dressed with lettuce, onion & pink sauce
+Gluten
+Eggs
+Soya
+€3.80<br>
+Add Chicken Burger to Basket
+Southern Fried Chicken
+All boxes served with coleslaw & stuffing
+Mini Box
+1 Piece of chicken & chips
+Gluten
+Celery
+Mustard
+€5.50<br>
+
+Snack Box
+2 Pieces of chicken & chips
+Gluten
+Celery
+Mustard
+€6.50<br>
+
+Dinner Box
+3 Pieces of chicken & chips
+Gluten
+Celery
+Mustard
+€7.50<br>
+
+Breast Box
+Breast of chicken & chips
+Gluten
+Celery
+Mustard
+€7.50<br>
+
+Breast of Chicken
+Gluten
+Celery
+Mustard
+€4.00<br>
+
+Fish
+Battered Cod
+Waiting time 8 - 10 mins approx
+Gluten
+Eggs
+Fish
+Milk
+€4.95<br>
+
+Cod Burger
+Gluten
+Eggs
+Fish
+Milk
+€3.80<br>
+
+Chips
+Chips
+Regular
+€2.80<br>
+
+Large
+€3.70<br>
+
+Taco Chips
+Gluten
+Soya
+Regular
+€4.90<br>
+
+Large
+€5.80<br>
+
+Chips with 2 Toppings on Top
+Regular
+€4.50<br>
+
+Large
+€4.90<br><br><br>
+
+Side Orders<br>
+Onion Rings
+Gluten
+€3.50<br>
+
+Garlic Mushrooms
+Gluten
+€3.50<br>
+
+Battered Sausage
+Gluten
+Milk
+Mustard
+Sulphur Dioxide & Sulphite
+€1.30<br>
+
+Jumbo Sausage
+Gluten
+Sulphur Dioxide & Sulphite
+€1.00<br>
+
+Chunky Chicken Bites
+Gluten
+€3.50<br>
+
+Chicken Croquettes
+Gluten
+€1.90<br>
+
+Buffalo Wings
+Regular
+€5.50<br>
+
+Large
+€6.50<br>
+
+BBQ Rib Sandwich
+Gluten
+Eggs
+Soya
+€3.60<br>
+
+Hot Dog
+Gluten
+Eggs
+Soya
+Celery
+€3.50<br>
+
+Taco Cheese Dog
+Gluten
+Eggs
+Soya
+Milk
+Celery
+€4.50<br>
+
+Steak & Kidney Pie
+Gluten
+Milk
+€3.30<br>
+
+Chicken & Mushroom Pie
+Gluten
+Milk
+€3.30<br><br><br>
+
+Dipping Sauce<br>
+Gluten free available
+Dipping Sauce
+Garlic & Herb
+€1.20<br>
+
+Sweet Chilli
+€1.20<br>
+
+Hickory Smoked BBQ
+€1.20<br><br><br>
+
+Kids Meals<br>
+Served with chips & juice
+Kids Chicken Nuggets (4)
+Gluten
+€4.90<br>
+
+Kids Sausages (2)
+Gluten
+Sulphur Dioxide & Sulphite
+€4.90<br>
+
+Kids Plain Burger
+Gluten
+Eggs
+Soya
+€4.90<br>
+
+Kids Fish Fingers (3)
+Gluten
+Fish
+€4.90<br><br><br>
+
+Drinks<br>
+Soft Drinks
+Coca-Cola
+0.33L
+€1.40<br>
+
+Diet Coca-Cola
+0.33L
+€1.40<br>
+
+Club Orange
+0.33L
+€1.40<br>
+
+7-up
+0.33L
+€1.40<br>
+
+Mineral Water
+€1.50<br>
+
+Capri Sun
+€1.20<br><br><br>
+
+Milkshakes<br>
+Regular Milkshake
+Vanilla
+€2.50<br>
+
+Strawberry
+€2.50<br>
+
+Chocolate
+€2.50<br>
+
+Banana
+€2.50<br>
+
+Mint
+€2.50<br>
+
+Large Milkshake
+Vanilla
+€3.00<br>
+
+Strawberry
+€3.00<br>
+
+Chocolate
+€3.00<br>
+
+Banana
+€3.00<br>
+
+Mint
+€3.00<br>
+
+Chocolate Bar Milkshake
+Add extra bar for 60c extra
+Regular
+€3.00<br>
+
+Large
+€3.50   <br>         
+		</div> <!-- cd-panel-container -->
+	</div> <!-- cd-panel -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+<div id="panel">Hello world!</div>
+      </div>
+</div> <!-- end of book online wrapper-->
 
 <!--============ BOOK ONLINE ============-->
 
@@ -326,7 +966,7 @@ Pizza Deal 6
 <div class="copyrightswrapper">
     <div id="copyrights" class="container">
     
- 	   <p>Copyright 2014 <a href="https://www.facebook.com/Mido.HHH"> Mohamed Sobhy </a> All Rights Reserved</p>
+ 	   <p>Copyright 2017 <a href="https://www.facebook.com/Mido.HHH"> Aleksandar Zoric </a> All Rights Reserved</p>
     
     </div> <!-- end of copyrights-->
 </div> <!-- end of website-->
@@ -334,9 +974,7 @@ Pizza Deal 6
 
 
 
-<div class="fixedsocial">
-<a href="https://www.facebook.com/Mido.HHH"><img src="images/facebook.png" width="20" height="20" alt="fb"> </a>
-<a href="https://www.behance.net/Mido_HHH"><img src="images/behance.png" width="20" height="20" alt="behance"> </a>
+
 
 
 
