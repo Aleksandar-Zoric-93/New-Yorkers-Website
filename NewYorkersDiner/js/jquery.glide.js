@@ -1,11 +1,3 @@
-/*!
- * Glide.js
- * Version: 1.0.6
- * Simple, lightweight and fast jQuery slider
- * Author: @JedrzejChalubek
- * Site: http://jedrzejchalubek.com/
- * Licensed under the MIT license
- */
 ;(function ($, window, document, undefined) {
 
 	var name = 'glide',
